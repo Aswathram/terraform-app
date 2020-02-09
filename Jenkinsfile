@@ -38,7 +38,7 @@ stage('plan') {
 }
 }
 
-if (env.BRANCH_NAME == ''){
+if (env.BRANCH_NAME == 'dev'){
 
 stage('apply') {
   node{
